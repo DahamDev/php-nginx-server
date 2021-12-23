@@ -1,0 +1,8 @@
+DOCKER_ID="$(docker ps | grep nginxserver | awk '{print $1}')"
+
+docker stop "${DOCKER_ID}" || true
+sleep 2
+docker rm "${DOCKER_ID}" || true
+
+docker build -t nginxserver .
+docker run -d -p 8087:8080  -p 8443:8443 nginxserver  
