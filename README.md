@@ -17,4 +17,7 @@ nginx can be used to run php files. This project includes all the neccesary step
 If you need to enable https, upload relavant certificates to the /cert directory.  you can install self signed certificates for testing purposes
 
 
+
+Read more on installing nginx server from source : https://medium.com/@dahamne/installing-nginx-from-source-e13517ba0e9c
+
 ### Enjoy!!
