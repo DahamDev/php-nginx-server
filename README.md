@@ -1,3 +1,5 @@
+![image](https://user-images.githubusercontent.com/96166776/147625857-f78a557f-62d3-47b2-8413-5331f24f4509.png)
+
 # php-nginx-server
 configurations to run php on an nginx server using a single Dockerfile. 
 
